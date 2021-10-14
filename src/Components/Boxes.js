@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { css } from "styled-components";
+import styled, { css, keyframes } from "styled-components";
 import beer from "../image/beer1.jpg";
 import coding from "../image/coding.webp";
 import responsive from "../image/responsive.jpeg";
@@ -32,8 +32,20 @@ const Box = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 50px 10%;
   gap: 50px;
+
+  @keyframes setPadding {
+    0% {
+      padding: 0;
+      opacity: 0;
+    }
+    100% {
+      padding: 50px 200px;
+      opacity: 1;
+    }
+  }
+
+  animation: setPadding 2s forwards;
 `;
 
 const Thumb = styled.img`
@@ -41,7 +53,13 @@ const Thumb = styled.img`
   height: 200%;
   ${media.tablet`
   display: none;
-  `}
+  `}/* opacity: 1;
+  transition: all 0.5s;
+  :hover {
+    opacity: 0.5;
+  } */
+
+  /* animation: fadeIn 1s infinite; */
 `;
 
 const Text = styled.div`

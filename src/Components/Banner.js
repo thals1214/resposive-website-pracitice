@@ -28,6 +28,16 @@ const Wrapper = styled.div`
 const Photo = styled.img`
   width: 100%;
   margin-top: 5vh;
+
+  opacity: 1;
+  /* transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s; */
+  transition: all 0.5s;
+  :hover {
+    opacity: 0.5;
+  }
 `;
 
 const Title = styled.div`
@@ -47,7 +57,7 @@ const Title = styled.div`
   margin: 0;
   transform: translate(-50%, -50%);
   text-align: center;
-  `}
+  `}/* animation: fadeIn 1s ease-in; */
 `;
 
 const Banner = () => {
