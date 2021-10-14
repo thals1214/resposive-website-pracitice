@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/responsive-website-practice/static/css/main.4a4137e4.chunk.css",
-    "main.js": "/responsive-website-practice/static/js/main.eba92377.chunk.js",
-    "main.js.map": "/responsive-website-practice/static/js/main.eba92377.chunk.js.map",
-    "runtime-main.js": "/responsive-website-practice/static/js/runtime-main.a58d61c3.js",
-    "runtime-main.js.map": "/responsive-website-practice/static/js/runtime-main.a58d61c3.js.map",
-    "static/js/2.7fba5d7e.chunk.js": "/responsive-website-practice/static/js/2.7fba5d7e.chunk.js",
-    "static/js/2.7fba5d7e.chunk.js.map": "/responsive-website-practice/static/js/2.7fba5d7e.chunk.js.map",
-    "static/js/3.a26fd43e.chunk.js": "/responsive-website-practice/static/js/3.a26fd43e.chunk.js",
-    "static/js/3.a26fd43e.chunk.js.map": "/responsive-website-practice/static/js/3.a26fd43e.chunk.js.map",
+    "main.css": "/responsive-website-practice/static/css/main.ed7cc800.chunk.css",
+    "main.js": "/responsive-website-practice/static/js/main.dffd8169.chunk.js",
+    "main.js.map": "/responsive-website-practice/static/js/main.dffd8169.chunk.js.map",
+    "runtime-main.js": "/responsive-website-practice/static/js/runtime-main.faff2f7d.js",
+    "runtime-main.js.map": "/responsive-website-practice/static/js/runtime-main.faff2f7d.js.map",
+    "static/js/2.52453d70.chunk.js": "/responsive-website-practice/static/js/2.52453d70.chunk.js",
+    "static/js/2.52453d70.chunk.js.map": "/responsive-website-practice/static/js/2.52453d70.chunk.js.map",
+    "static/js/3.a6c5d5b3.chunk.js": "/responsive-website-practice/static/js/3.a6c5d5b3.chunk.js",
+    "static/js/3.a6c5d5b3.chunk.js.map": "/responsive-website-practice/static/js/3.a6c5d5b3.chunk.js.map",
     "index.html": "/responsive-website-practice/index.html",
-    "static/css/main.4a4137e4.chunk.css.map": "/responsive-website-practice/static/css/main.4a4137e4.chunk.css.map",
-    "static/js/2.7fba5d7e.chunk.js.LICENSE.txt": "/responsive-website-practice/static/js/2.7fba5d7e.chunk.js.LICENSE.txt",
+    "static/css/main.ed7cc800.chunk.css.map": "/responsive-website-practice/static/css/main.ed7cc800.chunk.css.map",
+    "static/js/2.52453d70.chunk.js.LICENSE.txt": "/responsive-website-practice/static/js/2.52453d70.chunk.js.LICENSE.txt",
+    "static/media/1.626dd510.png": "/responsive-website-practice/static/media/1.626dd510.png",
+    "static/media/2.4714cdd2.png": "/responsive-website-practice/static/media/2.4714cdd2.png",
+    "static/media/3.66244c3a.png": "/responsive-website-practice/static/media/3.66244c3a.png",
     "static/media/beer.396b4e16.jpeg": "/responsive-website-practice/static/media/beer.396b4e16.jpeg",
     "static/media/beer1.7ddaca73.jpg": "/responsive-website-practice/static/media/beer1.7ddaca73.jpg",
     "static/media/coding.003e4aba.webp": "/responsive-website-practice/static/media/coding.003e4aba.webp",
     "static/media/responsive.a525e8bb.jpeg": "/responsive-website-practice/static/media/responsive.a525e8bb.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a58d61c3.js",
-    "static/js/2.7fba5d7e.chunk.js",
-    "static/css/main.4a4137e4.chunk.css",
-    "static/js/main.eba92377.chunk.js"
+    "static/js/runtime-main.faff2f7d.js",
+    "static/js/2.52453d70.chunk.js",
+    "static/css/main.ed7cc800.chunk.css",
+    "static/js/main.dffd8169.chunk.js"
   ]
 }
