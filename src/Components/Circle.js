@@ -1,22 +1,22 @@
-import React from "react";
-import styled, { css } from "styled-components";
-import logo1 from "../image/1.png";
-import logo2 from "../image/2.png";
-import logo3 from "../image/3.png";
+import React from 'react'
+import styled, { css } from 'styled-components'
+import logo1 from '../image/1.png'
+import logo2 from '../image/2.png'
+import logo3 from '../image/3.png'
 
 const sizes = {
   desktop: 1024,
   tablet: 768,
-};
+}
 
 const media = Object.keys(sizes).reduce((acc, label) => {
   acc[label] = (...args) => css`
     @media (max-width: ${sizes[label] / 16}em) {
       ${css(...args)};
     }
-  `;
-  return acc;
-}, {});
+  `
+  return acc
+}, {})
 
 const Wrapper = styled.div`
   display: flex;
@@ -31,7 +31,7 @@ const Wrapper = styled.div`
   gap: 100px;
   padding: 100px;
   `} */
-`;
+`
 
 const Logo = styled.div`
   width: 200px;
@@ -46,10 +46,16 @@ const Logo = styled.div`
     height: 50%;
     width: 50%;
   }
+
   ${media.tablet`
   margin: 10px;
+  display:none;
   `}
-`;
+  :hover {
+    width: 300px;
+    opacity: 0.5;
+  }
+`
 
 const Circle = () => {
   return (
@@ -58,13 +64,13 @@ const Circle = () => {
         <img src={logo1} />
       </Logo>
       <Logo>
-        <img src={logo2} style={{ height: "25%", top: "38%" }} />
+        <img src={logo2} style={{ height: '15%', top: '42%' }} />
       </Logo>
       <Logo>
-        <img src={logo3} style={{ width: "25%", left: "38%" }} />
+        <img src={logo3} style={{ width: '30%', left: '36%' }} />
       </Logo>
     </Wrapper>
-  );
-};
+  )
+}
 
-export default Circle;
+export default Circle
